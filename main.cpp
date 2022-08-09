@@ -18,6 +18,6 @@ void output(std::string key,float value){
 int main() {
     timeTravel(-10.f,90);
     timeTravel(80,0);
-    output("Travel time",timeTravel(input("Input Distance: "), input("Input speed: ")));
+//    output("Travel time",timeTravel(input("Input Distance: "), input("Input speed: ")));
     return 0;
 }
